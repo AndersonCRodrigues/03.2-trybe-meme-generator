@@ -17,3 +17,19 @@
   font-size: 30px;
   color: white;
 }
+
+#fire {
+  display: inline-block;
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+  display: inline-block;
+}
+
+#earth {
+  background-color: green;
+  display: inline-block;
+}
+
