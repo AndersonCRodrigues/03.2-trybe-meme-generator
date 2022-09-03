@@ -11,3 +11,9 @@
 #meme-text , #meme-image {
   position: absolute;
 }
+
+#meme-text {
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
