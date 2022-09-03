@@ -6,6 +6,7 @@ const memeImg = document.querySelector('#meme-image');
 const fireBtn = document.querySelector('#fire');
 const waterBtn = document.querySelector('#water');
 const earthBtn = document.querySelector('#earth');
+const defaultMeme = document.querySelector('#default-memes');
 
 inputText.addEventListener('keyup', (event) => {
   if (event.value !== '') textMeme.innerText = inputText.value;
@@ -28,4 +29,8 @@ waterBtn.addEventListener('click', () => {
 
 earthBtn.addEventListener('click', () => {
   divMeme.style.border = '6px groove rgb(0, 128, 0)';
+});
+
+defaultMeme.addEventListener('click', (origin) => {
+  memeImg.src = origin.target.src;
 });
