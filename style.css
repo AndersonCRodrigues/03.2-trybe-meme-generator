@@ -2,6 +2,10 @@
   margin-top: 20px;
   display: inline-block;
   position: relative;
+  border: 1px solid black;
+  background-color: white;
+  width: 400px;
+  height: 500px;
 }
 
 #meme-text , #meme-image {
